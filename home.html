@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!--  -->
   <script src="https://kit.fontawesome.com/760bcb0a15.js" crossorigin="anonymous"></script>
@@ -24,13 +25,12 @@
 <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 <body>
     
     <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container p-3">
+        <div class="container p-1">
             <div>
                 <a class="navbar-brand" href="#">
                     <img class="logo" src="./asserts/futurewings.png" alt="">
@@ -64,11 +64,12 @@
 </nav>
 <!-- navbar -->
 <!-- header -->
-<div class="header" >
-    <div>
-    <h1 class="text-center display-2 ">Let’s Find a Homes <br>  
+<div class="header">
+    <div  data-aos="fade-up" data-aos-delay="50"
+    data-aos-duration="1000">
+    <h1 class="text-center display-2 ">Let’s Find a Home <br>  
         <span class="fw-semibold">That Perfect For You !</span></h1>
-        <p class="text-center text-secondary bg-white mt-3 col-11 col-md-4 rounded-pill mx-auto p-1">Want to find home? We are ready to help you find one that suits your lifestyle and needs</p>
+        <p class="text-center text-secondary bg-white mt-3 col-11 col-md-4 rounded-pill mx-auto p-1">Want to find home? We are ready to help you find one that suits your lifestyle and needs.</p>
     </div>
 </div>
     <!-- header -->
@@ -85,7 +86,7 @@
                     <option selected>Maharashtra</option>
                     <option value="1">Gujrat</option>
                     <option value="2">Goa</option>
-                    <option value="3">Utter pradesh</option>
+                    <option value="3">Uttar Pradesh</option>
                 </select>
             </div>
         <div class="col-12 col-md-3 mt-2 mt-md-0">
@@ -124,7 +125,7 @@
                 <p class="text-secondary">Mumbai, Sion</p>
                 <div class="my-2 text-xs d-flex justify-content-between align-items-center ">
                     <p class="text-secondary"><i class="fa-solid fa-bed pe-2 text-dark"></i> 3 Bed </p>
-                    <p class="text-secondary"><i class="fa-solid fa-bath pe-2 text-dark"></i>3 Bath </p>
+                    <p class="text-secondary"><i class="fa-solid fa-bath pe-2 text-dark"></i>3 Bathroom </p>
                     <p class="text-secondary"><i class="fa-solid fa-ruler-combined pe-2 text-dark"></i>1200 Sq</p>
                 </div>
                 <div class=" d-flex align-items-center justify-content-between">
@@ -285,23 +286,23 @@
 </div>
 <!-- house type -->
 <!-- count -->
-<div class="bg-dark my-5">
+<div class="bg-dark my-5 counter-div">
 <div class="container">
     <div class="row py-5 text-center">
         <div class="col-6 col-md-3">
-            <h1 class="text-yellow display-2 fw-bold">1653</h1>
+            <h1 class="text-yellow display-2 fw-bold counter">1653</h1>
             <p class="text-secondary">Homes for Sale</p>
         </div>
         <div class="col-6 col-md-3">
-            <h1 class="text-yellow display-2 fw-bold">265</h1>
+            <h1 class="text-yellow display-2 fw-bold counter" >265</h1>
             <p class="text-secondary">Open Houses</p>
         </div>
-        <div class="col-6 col-md-3 mt-5 mt-md-0">
-            <h1 class="text-yellow display-2 fw-bold">423</h1>
+        <div class="col-6 col-md-3 mt-5 mt-md-0 ">
+            <h1 class="text-yellow display-2 fw-bold counter" >423</h1>
             <p class="text-secondary">Recently Sold</p>
         </div>
-        <div class="col-6 col-md-3 mt-5 mt-md-0">
-            <h1 class="text-yellow display-2 fw-bold">9.6/10</h1>
+        <div class="col-6 col-md-3 mt-5 mt-md-0 ">
+            <h1 class="text-yellow display-2 fw-bold"><span class="counter" >9.6</span>/10</h1>
             <p class="text-secondary">Customer Satisfaction</p>
         </div>
     </div>
@@ -311,7 +312,7 @@
 <!-- new project -->
 <div class="container mb-5 project">
      <div class="row justify-content-center">
-        <div class="col-11 col-md-6 d-flex justify-content-center">
+        <div class="col-11 col-md-6 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="100">
             <div class="project-img">
                 <img src="https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
             </div>
@@ -358,8 +359,8 @@
                     <p class="text-secondary"><i class="fa-solid fa-water-ladder pe-2 text-dark"></i>6x5 Water Pool</p>
                     <p class="text-secondary"><i class="fa-solid fa-utensils pe-2 text-dark"></i>1 Kitchen</p>
             </div>
-            <div class="d-flex mt-4 justify-content-between align-items-center bg-light-yellow p-1 ps-3 rounded-pill">
-                <p class="fs-5 fw-semibold text-dark ">25k Per Day</p>
+            <div class="d-flex mt-4 justify-content-between align-items-center bg-white p-1 ps-3 rounded-pill">
+                <p class="fs-5 fw-semibold text-yellow ">25k Per Day</p>
                 <button class="btn bg-dark text-white rounded-pill">Book now</button>
             </div>
     </div>
@@ -388,9 +389,9 @@
                         <p class="text-secondary"><i class="fa-solid fa-water-ladder pe-2 text-dark"></i>6x5 Water Pool</p>
                         <p class="text-secondary"><i class="fa-solid fa-utensils pe-2 text-dark"></i>1 Kitchen</p>
                 </div>
-                <div class="d-flex mt-4 justify-content-between align-items-center bg-secondary p-1 ps-3 rounded-pill">
-                    <p class="fs-5 fw-semibold text-white">28k Per Day</p>
-                    <button class="btn bg-yellow rounded-pill">Book now</button>
+                <div class="d-flex mt-4 justify-content-between align-items-center bg-white p-1 ps-3 rounded-pill">
+                    <p class="fs-5 fw-semibold text-yellow ">28k Per Day</p>
+                    <button class="btn bg-dark text-white rounded-pill">Book now</button>
                 </div>
         </div>
     </div>
@@ -439,9 +440,9 @@
                             </div>
                 </div>
         </div>
-        <div class="col-6 d-flex d-md-block d-none">
-            <div class="about-us-img d-flex justify-content-center align-items-center">
-            <img   src="./asserts/futurewings-white-logo.png" alt="">
+        <div class="col-6 d-none d-md-flex justify-content-center align-items-center">
+            <div class="about-us-img d-flex justify-content-center align-items-center" >
+            <img   src="./asserts/futurewings-white-logo.png" alt="" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
         </div>
         </div>
 
@@ -453,10 +454,10 @@
     <div class="p-4 d-md-flex align-items-center h-100">
         <div class="col-12 col-md-8">
             <h4 class="fs-2 text-white">Do you have any question?</h4>
-            <p class="text-white">Pu your email address and get started</p>
+            <p class="text-white">Put your email address and get started</p>
         </div>
-        <div class="col-md-4 mt-3  bg-white rounded-pill">
-            <div class="emailbox p-1 d-flex justify-content-between">
+        <div class="col-md-4 mt-3  bg-white rounded-pill" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+            <div class="emailbox p-1 d-flex justify-content-between" >
                 <input type="text" class="w-100 border-0 ps-3 bg-transparent" placeholder="Email here">
                 <button class="btn bg-yellow rounded-pill">Send</button>
             </div>
@@ -473,7 +474,7 @@
         <img class="logo" src="./asserts/futurewings.png" alt="">
         <p  class="logo-text text-white ms-2 fw-light fs-3 fw-bold ms-2 text-yellow">Future<br> <span class="fs-6 fw-light text-white">Wings</span></p>
     </div>
-    <p class="text-white text-xs fw-light mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    <p class="text-white text-xs fw-light mt-3">we have established ourselves as the largest real estate advisory in India through our commitment towards building new benchmarks of excellence in the industry</p>
 <div class="mt-3 d-flex">
     <i class="bi bi-facebook text-yellow fs-2"></i>
     <i class="bi bi-instagram text-yellow fs-2 ms-3"></i>
@@ -516,17 +517,17 @@
     <div class="w-100 mt-5">
         <p class="text-secondary d-flex justify-content-end pe-4">powered by <a href="http://www.whizzactsolutions.com/" class="page-link text-secondary ms-1" target="_blank"> WhizzAct Solutions</a></p>
     </div>
-    <div class="footer-logo">
+    <!-- <div class="footer-logo">
         <img src="./asserts/futurewings-white-logo.png" alt="">
-    </div>
+    </div> -->
 </div>
 
 <!-- footer -->
 </body>
 <script>
+  AOS.init();
 
-
-    $('.properties').owlCarousel({
+$('.properties').owlCarousel({
     loop: true,
     margin: 0,
     responsiveClass: true,
@@ -562,6 +563,22 @@ $('.villa-carosul').owlCarousel({
   }
 })
 
+// if ($('.counter-div').visible(true)) {
+    $('.counter').each(function () {
+   var size = $(this).text().split(".")[1] ? $(this).text().split(".")[1].length : 0;
+   $(this).prop('Counter', 0).animate({
+      Counter: $(this).text()
+   }, {
+      duration: 3000,
+      step: function (func) {
+         $(this).text(parseFloat(func).toFixed(size));
+      }
+   });
+});
+// } 
+
+
+
 
 
 
@@ -572,4 +589,6 @@ $('.villa-carosul').owlCarousel({
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 <!-- aos -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- countup jquery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery-countup@1.0.1/src/jquery.countUp.min.js"></script>
 </html>
