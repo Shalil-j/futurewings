@@ -99,6 +99,9 @@ border-radius: 2rem;
     overflow: hidden !important;
     padding: 0;
 }
+.villa-img{
+    height: 17rem;
+}
 .villa-img img{
     width: 100%;
     height: 100%;
@@ -134,10 +137,59 @@ border-radius: 2rem;
 text-decoration: none;
 color: white;
 font-weight: lighter;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+.footer-nav a:hover{
+font-weight: 600;
+font-size: 1.2rem !important;
+}
+.footer{
+    background-color: rgb(15, 15, 15);
+    overflow: hidden;
+    /* z-index: ; */
+    position: relative;
+}
+.footer-logo{
+    /* background:#93cfff; */
+    height: 20rem;
+    width: auto;
+    position: absolute;
+    opacity: 5%;
+    left: 50%; 
+    transform: translate(-50%, -100%);
+    z-index: 10;
+}
+.footer-logo img{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+.footer-content{
+    z-index: 50 !important;
 }
 /* --------- */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 83vh;
+    }
+    .header h1{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .header p{
+        background-color: #ffffff52 !important;
+        /* backdrop-filter: blur(2px); */
+    }
+    /* ---------------- */
+    .villa{
+        height: auto;
+    }
+    .suscribe{
+        height: auto;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
