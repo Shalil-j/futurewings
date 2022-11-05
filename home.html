@@ -68,7 +68,13 @@
 <nav class="navbar navbar-expand-lg bg-white ">
     <div class="container p-2 ">
  <div class="row justify-content-between w-100">
-    <div class="col-5 d-flex align-items-center d-none d-md-block ">
+    <div class="col-4 d-md-none"></div>
+    <div class="col-4 d-none d-sm-block d-lg-none">
+    <button class="btn openMenu" type="button">
+        <i class="fa-solid fa-bars fs-3 "></i>
+    </div>
+    </button>
+    <div class="col-5 d-flex align-items-center d-none d-lg-block ">
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link active text-yellow" aria-current="page" href="#">Home</a>
@@ -87,16 +93,16 @@
             </li>
           </ul>
     </div>
-    <div class="col-5 col-md-2  text-center">
-        <a class="ps-md-5" href="#">
+    <div class="col-4 col-md-2  text-center ">
+        <a class="ps-md-3 " href="#">
             <img class="logo" src="./asserts/futurewings.png" alt="">
         </a>
     </div>
 
-    <div class="col-7 col-md-5">
+    <div class="col-4 col-md-5">
         <div class="d-flex justify-content-end align-items-center h-100">
         <a class="nav-link bg-yellow  rounded text-white px-3 py-2 d-none d-md-block" href="#">Find Home</a>
-        <button id="openMenu" class="btn d-md-none" type="button">
+        <button class="btn d-md-none openMenu" type="button">
             <i class="fa-solid fa-bars fs-3 "></i>
         </button>
     </div>
@@ -106,14 +112,14 @@
 
 <!-- sidebar nav -->
 <div class="sidebar-nav">
-    <div id="closeMenu" class="mask"></div>
+    <div class="mask closeMenu"></div>
     <div class="sidebar-main-nav d-flex flex-column justify-content-between">
     <div class="d-flex justify-content-between w-100 align-items-center p-3">
         <div>
-            <img class="logo ps-3 d-sm-none" src="./asserts/futurewings.png" alt="">
+            <img class="logo ps-2 d-sm-none" src="./asserts/futurewings.png" alt="">
         </div>
         <div class="me-3 pe-1 ">
-            <button id="closeMenubtn" class="border-0 bg-transparent">
+            <button class="border-0 bg-transparent closeMenu">
                 <i class="bi bi-x-circle fs-1 fw-bold"></i>
             </button>
         </div>
@@ -148,12 +154,12 @@
     data-aos-duration="1000">
     <h1 class="text-center display-2 ">Let’s Find a Home <br>  
         <span class="fw-semibold">That Perfect For You !</span></h1>
-        <p class="text-center text-secondary bg-white mt-3 col-11 col-md-4 rounded-pill mx-auto p-1">Want to find home? We are ready to help you find one that suits your lifestyle and needs.</p>
+        <p class="text-center text-secondary bg-white mt-3 col-11 col-md-8 col-lg-4 rounded-pill mx-auto p-1">Want to find home? We are ready to help you find one that suits your lifestyle and needs.</p>
     </div>
 </div>
     <!-- header -->
     <!-- search bar -->
-    <div class="col-11 col-md-8 mx-auto shadow  search p-3 bg-white rounded-5">
+    <div class="col-11 col-md-10 col-lg-8 mx-auto shadow  search p-3 bg-white rounded-5">
         <div class="search-bar d-flex rounded-pill justify-content-center align-items-center w-100 border border-2 border-yellow p-2 px-3">
             <input class="border-0 pe-3" type="text" name="" id="" placeholder="Search by Place, Location, Project, Developer">
             <i class="fa-solid fa-magnifying-glass text-yellow"></i>
@@ -182,7 +188,7 @@
             <input type="range" class="form-range" min="10000" max="1000000000" step="10000" id="customRange3">
         </div>
         <div class="col-12 col-md-2 mb-3 mb-md-0 mt-4 mt-md-0">
-            <button class="btn btn-dark px-4 w-100">Search</button>
+            <button class="btn btn-dark px-lg-4 w-100">Search</button>
         </div>
     </div>
 </div>
@@ -285,7 +291,7 @@
 <div class="container">
     <h1 class="text-center">We are Ready to protect <br> your place</h1>
     <div class="row justify-content-center justify-content-md-between my-5 ">
-        <div class="col-11 col-md-3 text-center place-desc">
+        <div class="col-11 col-md-4 col-lg-3 text-center place-desc">
             <i class="bi bi-headset text-yellow"></i>
             <p class="fs-5 fw-semibold py-2">Customer Support</p>
             <p class="text-secondary">We have the best service
@@ -294,7 +300,7 @@
                 friendly
                 </p>
         </div>
-        <div class="col-11 col-md-3 text-center place-desc">
+        <div class="col-11 col-md-4 col-lg-3 text-center place-desc">
             <i class="bi bi-patch-check-fill text-yellow "></i>
             <p class="fs-5 fw-semibold py-2">Certified Properties</p>
             <p class="text-secondary">We have the best service
@@ -303,7 +309,7 @@
                 friendly
                 </p>
         </div>
-        <div class="col-11 col-md-3 text-center place-desc">
+        <div class="col-11 col-md-4 col-lg-3 text-center place-desc">
             <i class="bi bi-currency-rupee text-yellow"></i>
             <p class="fs-5 fw-semibold py-2">Budget Friendly</p>
             <p class="text-secondary">We have the best service
@@ -417,11 +423,11 @@
     <div class="villa-carosul owl-carousel owl-theme">
     <!--  -->
     <div class="item d-flex justify-content-center">
-    <div class="col-11  villa  d-md-flex align-items-center">
-        <div class="col-12 col-md-5 villa-img">
+    <div class="col-11  villa  d-lg-flex align-items-center">
+        <div class="col-12 col-lg-5 villa-img">
             <img src="https://images.unsplash.com/photo-1602075432748-82d264e2b463?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
         </div>
-        <div class="col-12 col-md-7 p-3 ">
+        <div class="col-12 col-lg-7 p-2 p-md-3 ">
 
             <div class="d-flex justify-content-between align-items-center ">
                 <div class="">
@@ -447,11 +453,11 @@
     </div>
     <!--  -->
     <div class="item d-flex justify-content-center">
-        <div class="col-11 villa  d-md-flex align-items-center">
-            <div class="col-12 col-md-5 villa-img">
+        <div class="col-11 villa  d-lg-flex align-items-center">
+            <div class="col-12 col-lg-5 villa-img">
                 <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="">
             </div>
-            <div class="col-12 col-md-7 p-3 ">
+            <div class="col-12 col-lg-7  p-2 p-md-3 ">
     
                 <div class="d-flex justify-content-between align-items-center ">
                     <div class="">
@@ -495,28 +501,7 @@
         <div class="col-12 col-md-6 px-5">
             <h1 class="d-none d-md-block">About Us</h1>
             <div class="about-us mt-3">
-                <div>
-                <span class="fw-semibold text-yellow">Our Vision</span>
-                <p class="text-xs">
-                    Transparency in transactions and uniformity in contracts is our second name We have a forte in real estate advisory and we believe every buying experience should be a simple and successful accomplishment from a DREAM to REALITY. The driving force behind it is our team of real estate advisors who have a zest for fundamental values of customer satisfaction, credibility and professionalism.</p>
-                </div>
-                <div class="mt-2">
-                    <span class="fw-semibold text-yellow"> Our Mission</span>
-                    <p class="text-xs">   
-                    We believe every experience to make a dream home should be a simple and successful transformation. To make this a possib... 
-                    </div>
-                    <div class="mt-2">
-                        <span class="fw-semibold text-yellow">Our Goal</span>
-                        <p class="text-xs">
-                            
-                            360 Realtors is focused to help our clients ‘build value’ by providing custom solutions for their real estate requiremen...
-                        </div>
-                        <div class="mt-2">
-                            <span class="fw-semibold text-yellow"> Our Services</span>
-                            <p class="text-xs">
-                               
-                                Whether you’re looking for office space, retail locations, land or pre-leased space we will help you find, sell or lease the right space in the right place at a fair price. Our services include transaction and advisory for leasing, acquisition, disposition, consolidation, asset management, capital markets, pre-lease and other services across office and retail
-                            </div>
+                <p>With offices in Mumbai & Navi Mumbai, the tech hubs of Kharghar & Belapur, the economic capital of Mumbai, and three other cities, rest assured that there is always a Future Wing’s International near you. In addition to our expert local advisory services, we also have a team of international property service consultants in place, who can advise you on all your global investment needs, Future Wing’s International is a full-service real estate consultancy specialising in services across a wide range of asset classes in India, including commercial, office, residential, and industrial, among others. With a network of agents and advisors spanning the country.Our business is built on trust and integrity. This is intrinsic in everything we do and gives our clients, colleagues, suppliers, partners and investors the confidence to work with us. We treat everyone individually, offering bespoke advice aimed at building long-term relationships and making better property decisions.</p>
                 </div>
         </div>
         <div class="col-6 d-none d-md-flex justify-content-center align-items-center">
@@ -549,11 +534,12 @@
     <div class="container p-4 footer-content">
         <div class="row">
         <div class="col-12 col-md-4">
-        <div class="d-flex align-items-center justify-content-start">
+        <div class="text-center">
         <img class="logo" src="./asserts/futurewings.png" alt="">
-        <p  class="logo-text text-white ms-2 fw-light fs-3 fw-bold ms-2 text-yellow">Future<br> <span class="fs-6 fw-light text-white">Wings International</span></p>
+        <p  class="logo-text text-white ms-2 fw-light fs-5 fw-bold mt-2 text-yellow">Future Wings International</p>
+        <p class="text-secondary text-capitalize mt-1">connecting india for future space</p>
     </div>
-    <p class="text-white text-xs fw-light mt-3">we have established ourselves as the largest real estate advisory in India through our commitment towards building new benchmarks of excellence in the industry</p>
+    <p class="text-white text-xs fw-light mt-3 text-center">we have established ourselves as the largest real estate advisory in India through our commitment towards building new benchmarks of excellence in the industry</p>
 <div class="mt-4 d-flex">
     <a href=""><i class="bi bi-facebook text-yellow fs-2"></i></a>
     <a href=""><i class="bi bi-instagram text-yellow fs-2 ms-3"></i></a>
@@ -657,15 +643,15 @@ $('.villa-carosul').owlCarousel({
 });
 // } 
 
-$('#openMenu').click(function () {
+$('.openMenu').click(function () {
     $('.sidebar-nav').fadeIn('300');
 });
-$('#closeMenu').click(function () {
+$('.closeMenu').click(function () {
     $('.sidebar-nav').fadeOut('300');
 });
-$('#closeMenubtn').click(function () {
-    $('.sidebar-nav').fadeOut('300');
-});
+// $('#closeMenubtn').click(function () {
+//     $('.sidebar-nav').fadeOut('300');
+// });
 
 
 
