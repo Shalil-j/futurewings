@@ -206,6 +206,9 @@ font-size: 1.2rem !important;
     opacity: 5%;
     
 }
+.footer-main-logo{
+    height: 12rem;
+}
 /* --------- */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
