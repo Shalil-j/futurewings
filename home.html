@@ -68,7 +68,7 @@
 <nav class="navbar navbar-expand-lg bg-white">
     <div class="container d-flex justify-content-center">
  <div class="row justify-content-between w-100">
-    <div class="col-4 d-md-none"></div>
+    <div class="col-2 d-md-none"></div>
     <div class="col-4 d-none d-sm-block d-lg-none">
     <button class="btn openMenu" type="button">
         <i class="fa-solid fa-bars fs-3 "></i>
@@ -93,13 +93,13 @@
             </li>
           </ul>
     </div>
-    <div class="col-4 col-md-2  text-center ">
+    <div class="col-8 col-md-2  text-center ">
         <a class=" " href="#">
             <img class="logo" src="./asserts/futurewings.png" alt="">
         </a>
     </div>
 
-    <div class="col-4 col-md-5">
+    <div class="col-2 col-md-5">
         <div class="d-flex justify-content-end align-items-center h-100">
         <a class="nav-link bg-yellow  rounded text-white px-3 py-2 d-none d-md-block" href="#">Find Home</a>
         <button class="btn d-md-none openMenu" type="button">
@@ -515,15 +515,33 @@
 <!-- about us -->
 <!-- suscribe -->
 <div class="col-11 col-md-9 suscribe mx-auto my-5">
-    <div class="p-4 d-md-flex align-items-center h-100">
-        <div class="col-12 col-md-8">
+
+<!-- <div class="suscribe-msg d-flex align-items-center justify-content-center">
+    <p class="text-capitalize text-center">Thank you For Contacting Us<br>
+<span class="">
+Our Expert will call you
+</span>
+
+    </p>
+</div> -->
+
+    <div class="p-2 p-md-4 d-md-flex align-items-center h-100 w-100">
+        <div class="col-12 col-md-7 py-3">
             <h4 class="fs-2 text-white">Do you have any question?</h4>
-            <p class="text-white">Put your email address and get started</p>
+            <p class="text-white">Put your Phone no. and get started</p>
         </div>
-        <div class="col-md-4 mt-3  bg-white rounded-pill" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
-            <div class="emailbox p-1 d-flex justify-content-between" >
-                <input type="text" class="w-100 border-0 ps-3 bg-transparent" placeholder="Email here">
-                <button class="btn bg-yellow rounded-pill">Send</button>
+        <div class="col-12 col-md-5 mt-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+            <div class="p-1 w-100 m-0  row justify-content-between align-items-center w-100 bg-white rounded-pill" >
+                <div class="col-3 border-end">
+                <select class="form-select form-select-sm border-0 ">
+                    <option selected>+91</option>
+                    <option value="1">+261</option>
+                    <option value="2">+156</option>
+                    <option value="3">+103</option>
+                  </select></div>
+                  <div class="col-9 d-flex justify-content-between p-0">
+                <input type="number" class="bg-transparent border-0 w-100 px-2" maxlength="10" placeholder="Phone no. here" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" >
+                <button class="btn bg-yellow rounded-pill ">Send</button></div>
             </div>
         </div>
     </div>
@@ -577,12 +595,23 @@
 
 
 </div>
+<div class="text-white mt-4 d-flex text-uppercase terms">
+    <a class=" page-link fw-light" href="">terms & conditions</a>
+    <a class=" page-link fw-light ms-3" href="">Pivacy</a>
+    <a class=" page-link fw-light ms-3" href="">Policy</a>
+
+</div>
+<div class="w-100 mt-5">
+    <p class="text-secondary d-flex justify-content-end">powered by <a href="http://www.whizzactsolutions.com/" class="page-link text-secondary ms-1 fw-semibold text-white" target="_blank"> WhizzAct Solutions</a></p>
+</div>
     </div>
-    <div class="w-100 mt-5">
-        <p class="text-secondary d-flex justify-content-end pe-4">powered by <a href="http://www.whizzactsolutions.com/" class="page-link text-secondary ms-1" target="_blank"> WhizzAct Solutions</a></p>
-    </div>
+    <!--  -->
     <div class="footer-logo">
         <img src="./asserts/futurewings-sun-white-logo.png" alt="">
+    </div>
+
+    <div class="border-top">
+        <p class="text-center py-2 text-white fw-lighter">Copyright © Future Wing's International All Rights Reserved.</p>
     </div>
 </div>
 
@@ -647,9 +676,6 @@ $('.openMenu').click(function () {
 $('.closeMenu').click(function () {
     $('.sidebar-nav').fadeOut('300');
 });
-// $('#closeMenubtn').click(function () {
-//     $('.sidebar-nav').fadeOut('300');
-// });
 
 
 
