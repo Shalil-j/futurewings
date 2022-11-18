@@ -1,0 +1,64 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100 !important;
+  }
+  .sidebar-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100vh !important;
+    right: 0 !important;
+    display: none;
+    overflow: hidden;
+    /* transition: all 0.5s ease-in-out; */
+  }
+  .sidebar-main-nav {
+    height: 100vh;
+    width: 100% !important;
+    background-color: #ffffff;
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+  }
+  .close-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid #000000;
+    border-radius: 50%;
+  }
+  
+  .sidebar-menu a {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    transition: all 0.1s ease-in-out;
+  }
+  .sidebar-menu a:hover {
+    font-weight: 700;
+  }
+  .mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.456);
+    backdrop-filter: blur(3px);
+    z-index: 101 !important;
+}
+/*  */
+.about-us{
+  height: 100vh;
+}
+.about-icons{
+  height: 9rem !important;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* left: 5rem; */
+  z-index: -1;
+}
+.second-banner{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -28,42 +28,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 <body>
-    
-    <!-- <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container p-1 ">
-     
-            <div>   
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active text-yellow" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Property</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">About</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Contact</a>
-                    </li>
-                  </ul>
-              </div>
-            </div>
-            <div class="nav-logo">
-                <a class="navbar-brand" href="#">
-                    <img class="logo" src="./asserts/futurewings.png" alt="">
-                </a>
-            </div>
-            <div>
-                <a class="nav-link bg-yellow  rounded text-white px-3 py-2" href="#">Find Home</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-    </div>
-</div>
-</nav> -->
 <!-- nav2 -->
 <nav class="navbar navbar-expand-lg bg-white">
     <div class="container d-flex justify-content-center">
@@ -80,21 +44,21 @@
                 <a class="nav-link active text-yellow" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Property</a>
+                  <a class="nav-link" href="property.html">Property</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">NRI Properties</a>
+                <a class="nav-link" href="nri_property.html">NRI Properties</a>
             </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
     </div>
     <div class="col-8 col-md-2  text-center ">
-        <a class=" " href="#">
+        <a class=" " href="home.html">
             <img class="logo pe-1" src="./asserts/logopng.png" alt="">
         </a>
     </div>
@@ -193,6 +157,96 @@
     </div>
 </div>
 <!-- search bar -->
+<!-- ********************************* -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content rounded-4">
+        <div class="d-flex justify-content-end p-3">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body pe-pt-2">
+         <!--  -->
+         <div class="col-12 bg-white rounded-3  p-4 ">
+            <div class="row justify-content-center ">
+                <div class="col-5 m-0 p-0">
+                    <div class="modal-img position-relative">
+                        <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=692&q=80" alt="">
+                        <span><i class="bi bi-star fs-4 m-2 text-white model-fav-icon"></i></span>
+                        <span class="fs-5 px-3 rounded-pill bg-white model-brochure m-2"><i class="bi bi-download me-2"></i> Brochure</span>
+                    </div>
+                </div>
+                <div class="col-7 modal-property-info m-0 p-3">
+                    <div class="d-flex align-items-center">
+                    <h5 class="fs-3">Dosti Elit</h5>
+                    <span class="ms-3 bg-light-yellow text-yellow border-yellow border px-2 d-flex align-items-center rounded">4.5 <i class="bi bi-star-fill ms-1"></i></span>
+                </div>
+                <p class="text-secondary">Mumbai, Sion(East)</p>
+                <div class="d-flex mt-1">
+                    <span class="text-xs py-0 rounded-pill m-0 alert alert-secondary">Railway Station</span>
+                    <span class="text-xs py-0 rounded-pill m-0 ms-2 alert alert-secondary">Market</span>
+                    <span class="text-xs py-0 rounded-pill m-0 ms-2 alert alert-secondary">Airport</span>
+                </div>
+                <div class="overflow-hidden w-100 mt-2">
+                    <div class="model-bhks d-flex">
+                        <div class="col-6 bg-white rounded-3 p-2 border">
+                            <div class="border-bottom">
+                            <p class="">1 BHK</p>
+                        </div>
+                        <p class="text-xs text-secondary my-2"><i class="bi bi-bounding-box-circles pe-2"></i>400.65 Sq</p>
+                        <p><i class="bi bi-currency-rupee"></i> 45.5 L - 55.6L</p>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 bg-white rounded-3 p-2 border ms-3">
+                            <div class="border-bottom">
+                            <p class="">1 BHK</p>
+                        </div>
+                        <p class="text-xs text-secondary my-2"><i class="bi bi-bounding-box-circles pe-2"></i>400.65 Sq</p>
+                        <p><i class="bi bi-currency-rupee"></i> 45.5 L - 55.6L</p>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 bg-white rounded-3 p-2 border ms-3">
+                            <div class="border-bottom">
+                            <p class="">1 BHK</p>
+                        </div>
+                        <p class="text-xs text-secondary my-2"><i class="bi bi-bounding-box-circles pe-2"></i>400.65 Sq</p>
+                        <p><i class="bi bi-currency-rupee"></i> 45.5 L - 55.6L</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="fs-4 mt-2 fw-semibold"><i class="bi bi-currency-rupee"></i> 45.5L - 88.9L</p>
+                </div>
+            </div>
+            <!-- form -->
+            <p class="text-center mt-2 fs-4 fw-semibold text-secondary">Fill up the Below Form </p>
+            <div class="row w-100 justify-content-between g-3  my-2">
+                <div class="col-6">
+                    <input type="text" class="form-control" id="" placeholder="Name">
+                  </div>
+                  <div class="col-6">
+                    <input type="text" class="form-control" id="" placeholder="Email">
+                  </div>
+                  <div class="col-6 mt-3">
+                    <input type="text" class="form-control" id="" placeholder="Phone no.">
+                  </div>
+                  <div class="col-6 mt-3">
+                    <input type="text" class="form-control" id="" placeholder=" Subject">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                  </div>
+            </div>
+        
+            <div class="d-flex justify-content-end mt-3">
+                <button class="btn bg-yellow px-2 me-3 px-4 rounded-pill">Send</button>
+            </div>
+        </div>
+         <!--  -->
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ************************************* -->
 <!-- propertyes -->
 <div class="container my-5">
     <h1><span class='fs-4 text-yellow'>Best Choice</span><br>
@@ -200,7 +254,7 @@
     <div class="row mt-4 justify-content-between align-items-center">
         <!-- --- -->
         <div class="properties owl-carousel owl-theme">
-<div class="item">
+    <div class="item">
         <div class="col-3 property d-flex flex-column align-items-center rounded-3">
             <div class="property-img ">
                 <img class="rounded-3" src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=692&q=80" alt="">
@@ -215,7 +269,7 @@
                 </div>
                 <div class=" d-flex align-items-center justify-content-between">
                     <p class="text-dark fw-bold fs-3"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>25.3 Lakh</p>
-                    <button class="btn bg-light-yellow text-yellow fw-semibold">Book</button>
+                    <button class="btn bg-light-yellow text-yellow fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button>
                 </div>
             </div>
         </div></div>
@@ -236,7 +290,7 @@
                 </div>
                 <div class=" d-flex align-items-center justify-content-between">
                     <p class="text-dark fw-bold fs-3"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>25.3 Lakh</p>
-                    <button class="btn bg-light-yellow text-yellow fw-semibold">Book</button>
+                    <button class="btn bg-light-yellow text-yellow fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button>
                 </div>
             </div>
         </div></div>
@@ -257,7 +311,7 @@
                 </div>
                 <div class=" d-flex align-items-center justify-content-between">
                     <p class="text-dark fw-bold fs-3"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>25.3 Lakh</p>
-                    <button class="btn bg-light-yellow text-yellow fw-semibold">Book</button>
+                    <button class="btn bg-light-yellow text-yellow fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button>
                 </div>
             </div>
         </div></div>
@@ -278,7 +332,7 @@
                 </div>
                 <div class=" d-flex align-items-center justify-content-between">
                     <p class="text-dark fw-bold fs-3"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>25.3 Lakh</p>
-                    <button class="btn bg-light-yellow text-yellow fw-semibold">Book</button>
+                    <button class="btn bg-light-yellow text-yellow fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button>
                 </div>
             </div>
         </div></div>
