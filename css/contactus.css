@@ -48,15 +48,18 @@
     z-index: 101 !important;
 }
 /*  */
+.bg-img{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
 .contactus-div{
-    background: url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1296&q=80');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     padding-top:8.5rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .contact-form{
     background-color: #34343475;
@@ -76,4 +79,45 @@ input::-webkit-input-placeholder{
 textarea::-webkit-input-placeholder{
     color: white !important;
 }
-
+/*  */
+.logo-text {
+  line-height: 1rem;
+}
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.footer-nav a:hover {
+  font-weight: 600;
+  font-size: 1.2rem !important;
+}
+.footer-content {
+  position: relative;
+  z-index: 10;
+}
+.footer {
+  background-color: rgb(15, 15, 15);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.footer-logo {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 50%;
+}
+.footer-logo img {
+  height: 40rem;
+  opacity: 5%;
+}
+.footer-main-logo {
+  height: 12rem;
+}
+.terms a:hover {
+  color: #f2b90f !important;
+}
+/* --------- */

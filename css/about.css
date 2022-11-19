@@ -47,6 +47,7 @@
 /*  */
 .about-us{
   height: 100vh;
+  padding-top: 8rem;
 }
 .about-icons{
   height: 9rem !important;
@@ -62,3 +63,45 @@
   height: 100%;
   object-fit: cover;
 }
+/*  */
+.logo-text {
+  line-height: 1rem;
+}
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.footer-nav a:hover {
+  font-weight: 600;
+  font-size: 1.2rem !important;
+}
+.footer-content {
+  position: relative;
+  z-index: 10;
+}
+.footer {
+  background-color: rgb(15, 15, 15);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.footer-logo {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 50%;
+}
+.footer-logo img {
+  height: 40rem;
+  opacity: 5%;
+}
+.footer-main-logo {
+  height: 12rem;
+}
+.terms a:hover {
+  color: #f2b90f !important;
+}
+/* --------- */
